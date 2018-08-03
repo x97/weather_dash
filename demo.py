@@ -73,8 +73,7 @@ def update_graph(the_month=None, line_type=None, show=None):
     return {
         'data': generate_trace(the_month, line_type, show),
         'layout': {
-            'height': 225,
-            'margin': {'l': 20, 'b': 30, 'r': 10, 't': 10},
+            'margin': {'l': 20, 'b': 30, 'r': 10, 't': 100},
             'annotations': [{
                 'x': 0, 'y': 0.85, 'xanchor': 'left', 'yanchor': 'bottom',
                 'xref': 'paper', 'yref': 'paper', 'showarrow': False,
